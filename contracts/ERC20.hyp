@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma hyperion ^0.0.2;
 
-import "./IERC20.sol";
+import "./IERC20.hyp";
 
 contract ERC20 is IERC20 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
-    string public name = "Solidity by Example";
-    string public symbol = "SOLBYEX";
+    string public name = "Hyperion by Example";
+    string public symbol = "HYPBYEX";
     uint8 public decimals = 18;
 
     constructor(string memory _name, string memory _symbol) {
