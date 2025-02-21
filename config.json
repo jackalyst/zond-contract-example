@@ -2,5 +2,5 @@
     "provider":"http://localhost:8545",
     "hexseed":"hexseed_here",
     "contract_address":"contract_address_here",
-    "tx_required_confirmations": 12
+    "tx_required_confirmations": 2
 }

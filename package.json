@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@theqrl/web3": "^0.2.1",
-    "solc": "^0.8.16"
+    "@theqrl/web3": "^0.3.0",
+    "@theqrl/hypc": "^0.0.2"
   }
 }
